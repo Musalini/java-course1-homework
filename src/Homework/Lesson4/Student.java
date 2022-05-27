@@ -10,21 +10,22 @@ public class Student {
     double englishAverageGrade;
 
     public Student(int studentId, String name, String surname, int course, double mathAverageGrade, double economicsAverageGrade, double englishAverageGrade) {
-        this(mathAverageGrade,economicsAverageGrade,englishAverageGrade);
-    }
-
-    public Student(double mathAverageGrade, double economicsAverageGrade, double englishAverageGrade) {
+        this(studentId,name,surname,course);
         this.mathAverageGrade = mathAverageGrade;
         this.economicsAverageGrade = economicsAverageGrade;
         this.englishAverageGrade = englishAverageGrade;
     }
 
-    public Student(int studentId, String name) {
+    public Student(int studentId, String name, String surname, int course) {
         this.studentId = studentId;
         this.name = name;
+        this.surname = surname;
+        this.course = course;
     }
-    public Student(){}
 
+    public Student() {
+    }
 }
+
 
 
