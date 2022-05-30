@@ -1,4 +1,4 @@
-package Homework.Lesson6.MethodOverloading;
+package Homework.Lesson6;
 
 public class MethodOverloading {
     public static void main(String[] args) {
