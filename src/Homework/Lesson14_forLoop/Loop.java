@@ -2,6 +2,7 @@ package Homework.Lesson14_forLoop;
 
 public class Loop {
     public static void main(String[] args) {
+        String string = new String("Musa");
         showTime();
     }
 
