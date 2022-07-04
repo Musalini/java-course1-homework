@@ -1,6 +1,6 @@
 package Homework.Lesson27_AbstractClasses;
 
-public class Main {
+ class Main {
     public static void main(String[] args) {
         Swordsman swordsman = new Swordsman("Musa");
         System.out.println(swordsman.name);

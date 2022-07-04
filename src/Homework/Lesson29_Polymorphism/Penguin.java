@@ -1,6 +1,6 @@
-package Homework.Lesson27_AbstractClasses;
+package Homework.Lesson29_Polymorphism;
 
- class Penguin extends Bird {
+class Penguin extends Bird {
 
     public Penguin(String name) {
         super(name);

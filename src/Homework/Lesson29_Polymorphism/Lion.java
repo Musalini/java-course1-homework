@@ -1,4 +1,5 @@
-package Homework.Lesson27_AbstractClasses;
+package Homework.Lesson29_Polymorphism;
+
 class Lion extends Mammal{
 
     public Lion(String name) {

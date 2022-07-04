@@ -1,6 +1,6 @@
-package Homework.Lesson27_AbstractClasses;
+package Homework.Lesson29_Polymorphism;
 
-abstract  class Bird extends Animal implements Speakable {
+abstract class Bird extends Animal implements Speakable {
 
     public Bird(String name) {
         super(name);
